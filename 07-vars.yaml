@@ -11,4 +11,4 @@
   tasks:
    - name: print info
      ansible.builtin.debug:
-      msg: "COURSE IS: {{COURSE}} ,TRAINER IS: {{TRAINER}}"
+      msg: "USERNAME IS: {{username}} ,password IS: {{password}}"
