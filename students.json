@@ -1,0 +1,48 @@
+{
+    "students" :[
+        {
+        "FIRSTNAME": "sivakumar reddy",
+        "DOB" : "1991-01-01",
+        "ADDRESS" : [
+            {
+                "TYPE" : "PERM",
+                "FLATNUMBER" : 104,
+                "STREET" : "GANDHI NAGAR",
+                "CITY" :"HYDERABAD"
+
+            },
+            {
+                "TYPE" : "CURRENT",
+                "FLATNUMBER" : 104,
+                "STREET" : "GANDHI NAGAR",
+                "CITY" :"HYDERABAD"
+
+            }
+
+        ],
+        "SKILLS":["JAVA","DEVOPS","REACT"]
+    },
+    {
+        "FIRSTNAME": "PREMKUMAR",
+        "DOB" : "1991-01-01",
+        "ADDRESS" : [
+            {
+                "TYPE" : "PERM",
+                "FLATNUMBER" : 104,
+                "STREET" : "GANDHI NAGAR",
+                "CITY" :"HYDERABAD"
+
+            },
+            {
+                "TYPE" : "CURRENT",
+                "FLATNUMBER" : 104,
+                "STREET" : "GANDHI NAGAR",
+                "CITY" :"HYDERABAD"
+
+            }
+
+        ],
+        "SKILLS":["JAVA","DEVOPS","REACT"]
+    }
+]
+}

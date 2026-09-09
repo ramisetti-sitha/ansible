@@ -1,0 +1,51 @@
+<students>
+<student>
+        <FirstName>PREM</FirstName>
+        <DOB>1990-02-06</DOB>
+        <EMAIL>PKFAMILY23@GMAIL.COM</EMAIL>
+        <ADDRESS>23 Gandhi apartments banglore</ADDRESS>
+        <ADDRESS>
+                <FLATNUMBER>23</FLATNUMBER>
+                <STREET>GANDHI NAGAR</STREET>
+                <CITY>banglore</CITY>
+        </ADDRESS>
+        <ADDRESSES>
+          <PERMADDRESS>
+                      <FLATNUMBER>23</FLATNUMBER>
+                      <STREET>GANDHI NAGAR</STREET>
+                      <CITY>banglore</CITY>
+           </PERMADDRESS>
+           <CURRENTADDRESS>
+                        <FLATNUMBER>23</FLATNUMBER>
+                        <STREET>GANDHI NAGAR</STREET>
+                        <CITY>banglore</CITY>
+            </CURRENTADDRESS>
+        </ADDRESSES>
+    </student>
+    <student>
+        <FirstName>KARUNA</FirstName>
+        <DOB>1998-06-16</DOB>
+        <EMAIL>PKFAMILY23@GMAIL.COM</EMAIL>
+        <ADDRESS>23 Gandhi apartments banglore</ADDRESS>
+        <ADDRESS>
+                <FLATNUMBER>23</FLATNUMBER>
+                <STREET>GANDHI NAGAR</STREET>
+                <CITY>banglore</CITY>
+        </ADDRESS>
+        <ADDRESSES>
+          <PERMADDRESS>
+                      <FLATNUMBER>23</FLATNUMBER>
+                      <STREET>GANDHI NAGAR</STREET>
+                      <CITY>banglore</CITY>
+           </PERMADDRESS>
+           <CURRENTADDRESS>
+                        <FLATNUMBER>23</FLATNUMBER>
+                        <STREET>GANDHI NAGAR</STREET>
+                        <CITY>banglore</CITY>
+            </CURRENTADDRESS>
+        </ADDRESSES>
+    </student>
+</students>
+
+                        
+               

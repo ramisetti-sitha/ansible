@@ -1,0 +1,26 @@
+- name: "sivakumar reddy"
+  dob:  "1999-01-01"
+  mobilenumbaer: 123456789
+  address:
+   - flatnumber: 104
+     street: "gandhi nagar"
+     city: "hyderabad"
+     type: "current"
+   - flatnumber: 104
+     street: "gandhi nagar"
+     city: "hyderabad"
+     type: "permanent"
+- name: "premkumar"
+  dob:  "1999-01-01"
+  mobilenumbaer: 123456789
+  address:
+   - flatnumber: 104
+     street: "gandhi nagar"
+     city: "hyderabad"
+     type: "current"
+   - flatnumber: 104
+     street: "gandhi nagar"
+     city: "hyderabad"
+     type: "permanent"
+  
+     
