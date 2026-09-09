@@ -5,7 +5,5 @@
   - course-yaml
   tasks:
    - name: print variables
-     vars:
-      COURSE: "ANSIBLE"
      ansible.builtin.debug:
       msg: "COURSE IS: {{COURSE}} ,TRAINER IS: {{TRAINER}}"
