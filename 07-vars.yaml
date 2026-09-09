@@ -9,6 +9,6 @@
      prompt: please enter your password
      private: true
   tasks:
-   -name: print info
-  ansible.builtin.debug:
-   msg: "COURSE IS: {{COURSE}} ,TRAINER IS: {{TRAINER}}"
+   - name: print info
+     ansible.builtin.debug:
+      msg: "COURSE IS: {{COURSE}} ,TRAINER IS: {{TRAINER}}"
