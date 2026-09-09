@@ -1,0 +1,14 @@
+- name: play level variables
+  hosts: local
+  connection: local
+  vars_prompt:
+   - name: username
+     prompt: please enter your username
+     private: false
+   - name: password
+     prompt: please enter your password
+     private: true
+  tasks:
+   -name: print info
+  ansible.builtin.debug:
+   msg: "COURSE IS: {{COURSE}} ,TRAINER IS: {{TRAINER}}"
