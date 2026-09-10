@@ -3,6 +3,8 @@
   connection: local
   vars:
    topics: linux,shell,ansible,terraform
+   course: "DevOps with Ansible"
+   myIp: "192.23.89.123"
    tagsMap:
     name: ansible
     project: roboshop
