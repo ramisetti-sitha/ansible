@@ -1,0 +1,25 @@
+- name: demo on data types
+  hosts: local
+  connection: local
+  vars:
+   PROGRAM: "DEVSECOPS WITH STRING"
+   DURATION: 140
+   IS_LIVE: true
+   DETAILS:
+    MONTHS: 4
+    TRAINER: "SIVAKUMAR REDDY"
+   TOPICS: 
+    - LINUX
+    - SHELL
+    - ANSIBLE
+  tasks: 
+   - name: print variables
+     ansible.builtin.debug:
+      msg: |
+       Program: {{PROGRAM}}
+       Duration: {{DURATION}}
+       Is Live?: {{IS_LIVE}}
+       Topics: {{TOPICS}}
+       Details: {{DETAILS}}
+
+   
