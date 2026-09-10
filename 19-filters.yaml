@@ -6,7 +6,7 @@
   tasks:
    - name: greeting
      ansible.builtin.debug:
-      msg: "Hi premkumar,{{ GREETING | default(GOOD MORNING)}}"
+      msg: "Hi premkumar, {{ GREETING | default('GOOD MORNING')}}"
    - name: convert string to list
      ansible.builtin.debug:
-      msg: "{{ topics | split(',')}}"
+      msg: "{{ topics | split(',') }}"
