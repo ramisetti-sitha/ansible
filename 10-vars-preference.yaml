@@ -1,8 +1,8 @@
 - name: variable preference
   hosts: local
   connection: local
-  vars:
-   NAME: "ANSIBLE FROM PLAY"
+  # vars:
+  #  NAME: "ANSIBLE FROM PLAY"
   # vars_files:
   #  - course-yaml
   # vars_prompt:
