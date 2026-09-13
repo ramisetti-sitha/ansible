@@ -1,0 +1,16 @@
+- name: check idempotency
+  hosts: local
+  connection: local
+  become: yes
+  tasks: 
+   - name: user creation
+     ansible.builtin.user:
+      name: karuna
+
+# - name: PLAY-2
+#   hosts: local
+#   connection: local
+#   tasks:
+#    - name: play-2 from task-1
+#      ansible.builtin.debug:
+#       msg: "Hello from PLAY-2 and TASK-1"
